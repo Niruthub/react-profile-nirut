@@ -1,10 +1,13 @@
 .App {
   text-align: center;
-  background-image: url('../public/img/background-com.gif');
+  background: #323947;
+  /* background-image: url('../public/img/background-com.gif'); */
   background-size: cover; /* ครอบคลุมพื้นที่เนื้อหา */
   background-repeat: no-repeat; /* ไม่รีพีทภาพ */
   background-attachment: fixed; /* ทำให้พื้นหลังไม่เลื่อนเมื่อหน้าเลื่อน */
   color: #fff;
+  cursor: url(/public/img/genshin.69b4156.png),auto;
+  height: 100%;
 }
 
 .App-logo {
