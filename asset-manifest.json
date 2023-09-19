@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/react-profile-nirut/static/css/main.d454553a.css",
-    "main.js": "/react-profile-nirut/static/js/main.bda0fc6d.js",
+    "main.css": "/react-profile-nirut/static/css/main.92b9c333.css",
+    "main.js": "/react-profile-nirut/static/js/main.18e4c261.js",
     "static/js/787.5c467991.chunk.js": "/react-profile-nirut/static/js/787.5c467991.chunk.js",
-    "static/media/background-com.gif": "/react-profile-nirut/static/media/background-com.259b45a710cd9fb5c1e8.gif",
-    "static/media/logo.svg": "/react-profile-nirut/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-profile-nirut/index.html",
-    "main.d454553a.css.map": "/react-profile-nirut/static/css/main.d454553a.css.map",
-    "main.bda0fc6d.js.map": "/react-profile-nirut/static/js/main.bda0fc6d.js.map",
+    "main.92b9c333.css.map": "/react-profile-nirut/static/css/main.92b9c333.css.map",
+    "main.18e4c261.js.map": "/react-profile-nirut/static/js/main.18e4c261.js.map",
     "787.5c467991.chunk.js.map": "/react-profile-nirut/static/js/787.5c467991.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d454553a.css",
-    "static/js/main.bda0fc6d.js"
+    "static/css/main.92b9c333.css",
+    "static/js/main.18e4c261.js"
   ]
 }
