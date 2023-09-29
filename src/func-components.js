@@ -1,8 +1,8 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 export function Header(){
-  let img = '../public/logo/1082811.jpg'
+  let img = 'logo/1082811.jpg'
   return(
   <>
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
