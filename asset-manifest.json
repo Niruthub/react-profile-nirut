@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-profile-nirut/static/css/main.92b9c333.css",
-    "main.js": "/react-profile-nirut/static/js/main.18e4c261.js",
+    "main.js": "/react-profile-nirut/static/js/main.8b8a8e01.js",
     "static/js/787.5c467991.chunk.js": "/react-profile-nirut/static/js/787.5c467991.chunk.js",
     "index.html": "/react-profile-nirut/index.html",
     "main.92b9c333.css.map": "/react-profile-nirut/static/css/main.92b9c333.css.map",
-    "main.18e4c261.js.map": "/react-profile-nirut/static/js/main.18e4c261.js.map",
+    "main.8b8a8e01.js.map": "/react-profile-nirut/static/js/main.8b8a8e01.js.map",
     "787.5c467991.chunk.js.map": "/react-profile-nirut/static/js/787.5c467991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92b9c333.css",
-    "static/js/main.18e4c261.js"
+    "static/js/main.8b8a8e01.js"
   ]
 }
