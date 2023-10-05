@@ -1,14 +1,22 @@
 import React from "react";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+/**
+ *  กรณีรูปไม่ขึ้น ต้องรอ ใช้ npm run deploy ก่อนแล้วรอให้ 
+ *  GitHub ตรวจสอบให้เรียบร้อย รูปถึงจะแสดง
+ * 
+ */
+
+// ต้องใช้ url นำหน้าที่อยู่รูปเพื่อให้รูปแสดงผล
+let url = 'https://Niruthub.github.io/react-profile-nirut'
 
 export function Header(){
-  let img = 'logo/1082811.jpg'
+  let img = '/logo/1082811.jpg'
   return(
   <>
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <nav className="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
       <div className="container-fluid ">
-        <a className="navbar-brand" href="#">
-          <img src={img} alt="" width="30" height="24" className="d-inline-block align-text-top" />
+        <a className="navbar-brand text-center" href="#">
+          <img src={url + img} alt="" width="30" height="24" className="d-inline-block" />
+          &nbsp;
           Profile
         </a>
       </div>
@@ -23,6 +31,7 @@ export function Footer(){
     <>
     <div className="container-fluid bg-dark " style={{height:'150px'}}>
       &copy;{new Date().getFullYear()} All rights reserved
+      
     </div>
     </>
     )
@@ -40,8 +49,10 @@ export function ContentImage() {
   };
 
   return (
-    <div className="container position-relative opacity-75" >
-      <div style={styleImage}></div>
+    <div className="container position-relative " >
+      
+      <img style={styleImage} src={url + '/img/top.jpg'} alt="" />
+      
     </div>
   );
 }
