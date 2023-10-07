@@ -38,11 +38,10 @@ export function Footer(){
 }
 export function ContentImage() {
   const styleImage = {
-    width: '200px',
-    height: '200px',
+    width: '400px',
+    height: '400px',
     position: 'absolute',
-    backgroundColor: '#fff',
-    boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
+    backgroundSize: 'contain',
     padding: '10px',
     top: '0',
     right: '0',
@@ -61,9 +60,10 @@ export function Content(){
   return(
       <div className="container text-start" style={{marginTop:'50px',paddingRight:'200px'}}>
         <div className="row">
-          <img src={'/logo/1082811.jpg'}className="rounded float-start" alt="" />
-          <div className="row">Nirut Kunwong</div>
-          <div className="row">(นิรุท คุณวงค์)</div>
+          <img src={url + '/img/Nirut.png'} className="rounded "style={{width: '64px', height: '64px'}} alt="NirutInage" />
+          Nirut Kunwong<br/>
+          (นิรุท คุณวงค์)
+          </div>
           <div className="row my-3 ">
             <div className="card text-center opacity-75 mx-2" style={{width:'auto'}}>
               รุท
@@ -78,7 +78,7 @@ export function Content(){
               คอมพิวเตอร์
             </div>
           </div>
-        </div>
+        
         
          เรื่องราวของเด็กหนุ่มที่มีความฝัน ภรรยา ๕ คน และเป็นโปรแกรมเมอร์
 มีเงินเลี้ยงชีพ ใช้ชีวิตอย่างสงบสุข (หยอกๆ)
